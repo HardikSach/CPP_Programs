@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.playground/Contents.swift": "\"swift\"",
+        "iostream": "cpp"
+    }
+}
