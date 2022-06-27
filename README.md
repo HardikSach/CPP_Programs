@@ -1,2 +1,2 @@
 # CPP_Programs
-My C++ codes
+This repository contains my C++ learning codes.
