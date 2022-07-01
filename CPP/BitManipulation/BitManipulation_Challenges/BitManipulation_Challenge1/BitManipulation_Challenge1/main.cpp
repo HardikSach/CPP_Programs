@@ -9,11 +9,7 @@
 using namespace std;
 
 bool checkPower2(int n) {
-    if ((n & (n-1)) == 0) {
-        return true;
-    }
-    
-    return false;
+    return (n && !(n & n-1));
 }
 
 int main() {
@@ -21,7 +17,7 @@ int main() {
     int n;
     cin>>n;
     
-    if (checkPower2(n) == true) {
+    if (checkPower2(n)) {
         cout << n << " is a power of 2." << endl;
     }
     else {
