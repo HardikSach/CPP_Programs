@@ -11,8 +11,8 @@ using namespace std;
 int numberOfOnesInBinary(int n) {
     int count = 0;
     while (n) {
-        count += 1;
         n = n & n-1;
+        count++;
     }
     
     return count;
