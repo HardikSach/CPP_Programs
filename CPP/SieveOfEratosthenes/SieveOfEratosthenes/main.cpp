@@ -8,44 +8,6 @@
 #include <iostream>
 using namespace std;
 
-//void SieveOfEratosthenes(int arr[], int n) {
-//    for (int i=0; i<n; i++) {
-//        if (arr[i] > 1) {
-//            for (int j=n-1; j>=i*i; j--) {
-//                if (arr[j] % i == 0) {
-//                    int current = arr[j];
-//
-//                    while (arr[j] > current) {
-//                        arr[j+1] = arr[j];
-//                        j--;
-//                    }
-//
-//                    arr[j] = arr[n-1];
-//                    arr[n-1] = arr[j];
-//
-//                    n--;
-//                }
-//            }
-//
-//            for (int i=1; i<n; i++) {
-//                int current = arr[i];
-//                int j = i-1;
-//
-//                while (arr[j] > current && j>=0) {
-//                    arr[j+1] = arr[j];
-//                    j--;
-//                }
-//
-//                arr[j+1] = current;
-//            }
-//
-//            cout<<arr[i]<<" ";
-//        }
-//    }
-//
-//    cout<<endl;
-//}
-
 void SieveOfEratosthenes(int n) {
     int prime[n];
     
