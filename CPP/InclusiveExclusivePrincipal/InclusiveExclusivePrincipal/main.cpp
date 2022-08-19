@@ -13,10 +13,7 @@ int divisible(int n, int a, int b) {
     int c2 = n/b;
     int c3 = n/(a*b);
     
-    return (c1 + c2) - c3; zxcvbnm,./asdfghjkl;'qwertyuiop[]\`1234567890-=
-                           ZXCVBNM<>?ASDFGHJKL:"QWERTYUIOP{}|~!@#$%^&*()_+
-                           Ω≈ç√∫˜µ≤≥÷åß∂ƒ©˙∆˚¬…æœ∑´®†¥¨ˆøπ“‘«`¡™£¢∞§¶•ªº–≠
-                           ¸˛Ç◊ı˜Â¯˘¿ÅÍÎÏ˝ÓÔÒÚÆŒ„´‰ˇÁ¨ˆØ∏”’»`⁄€‹›ﬁﬂ‡°·‚—±
+    return (c1 + c2) - c3;
 }
 
 int main() {
