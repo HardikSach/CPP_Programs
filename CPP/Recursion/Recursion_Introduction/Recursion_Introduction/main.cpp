@@ -8,6 +8,15 @@
 #include <iostream>
 using namespace std;
 
+int factorial(int n){
+    if(n==0){
+        return 1;
+    }
+    
+    int prevFactorial = factorial(n-1);
+    return n * prevFactorial;
+}
+
 int fibonacci(int n) {
     
     if(n==0)
@@ -27,6 +36,8 @@ int main() {
     cin>>n;
     
     cout<<fibonacci(n)<<endl;
+    
+    cout<<factorial(n)<<endl;
     
     return 0;
 }
