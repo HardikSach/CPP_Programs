@@ -2,7 +2,7 @@
 //  main.cpp
 //  Armstrong
 //
-//  Created by Amit Sachdeva on 16/06/22.
+//  Created by Hardik Sachdeva on 16/06/22.
 //
 
 #include <iostream>
